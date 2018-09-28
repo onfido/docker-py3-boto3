@@ -1,4 +1,4 @@
-FROM alpine:3.7
+FROM alpine:3.8
 
 RUN apk add --update python3  \
 	&& pip3 install --upgrade pip \
